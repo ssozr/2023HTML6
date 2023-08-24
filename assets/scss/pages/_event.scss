@@ -1,0 +1,22 @@
+.event {
+    .list {
+        p {
+            border: 1px solid black !important;
+            border-left: 4px solid black !important;
+        }
+    }
+    .btn:hover {
+        background-color: #030303 !important;
+        .card-body, .card-footer {
+            background-color: #030303 !important;
+        }
+    }
+    .page-link:hover {
+        background-color: #030303 !important;
+    }
+
+    .active {
+        background-color: #030303 !important;
+        color: rgba(251, 255, 34, 1);
+    }
+}

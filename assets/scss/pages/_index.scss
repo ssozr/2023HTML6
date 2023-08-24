@@ -1,0 +1,121 @@
+.index {
+  .banner {
+    &-backImg {
+      background-image: url('/assets/images/Rectangle\ 3.png');
+      height: 518px;
+      @include background-image;
+    }
+    @media (max-width:992px) {
+      &-backImg {
+        height: 350px;
+      }
+      .fs-60 {
+        font-size: 32px !important;
+      }
+      .fs-24 {
+        font-size: 18px !important;
+      }
+    }
+  }
+  .cate {
+    a:hover {
+      background-color: #C96464;
+    }
+    .fs-24 {
+      line-height: 34.5px !important;
+    }
+    @media (max-width:992px) {
+      img {
+        width: 40px;
+        height: 40px;
+      }
+      .fs-24 {
+        font-size: 16px !important;
+        line-height: 1.5;
+      }
+  
+      .fs-48 {
+        font-size: 24px !important;
+        line-height: 32px;
+      }
+    }
+  }
+
+  .marquee {
+    @media (max-width:992px) {
+      .fs-32 {
+        font-size: 16px !important;
+      }
+    }
+  }
+  .recent {
+    .btn:hover {
+      background-color: #030303 !important;
+      .card-body, .card-footer {
+          background-color: #030303 !important;
+      }
+  }
+    @media (max-width:992px) {
+      .fs-64 {
+        font-size: 24px !important;
+      }
+      .fs-32 {
+        font-size: 16px !important;
+      }
+      .fs-48 {
+        font-size: 32px !important;
+      }
+      .fs-24 {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .online {
+    .list {
+      p {
+        border: 1px solid black !important;
+        border-left: 4px solid black !important;
+      }
+    }
+    @media (max-width:992px) {
+      .fs-32 {
+        font-size: 18px !important;
+      }
+      .fs-16 {
+        font-size: 14px !important;
+      }
+   }
+  }
+
+
+  .album {
+    .start-50 {
+      left: 35% !important;
+    }
+
+    .top-0 {
+      top: -15px !important;
+    }
+  }
+
+  .follow {
+    .fs-32 {
+      font-size: 24px !important;
+    }
+  }
+
+  .blockquote {
+    .fs-32 {
+      font-size: 18px !important;
+    }
+
+    .fs-18 {
+      font-size: 14px !important;
+    }
+  }
+}
+
+// @media (max-width:992px) {
+
+// }

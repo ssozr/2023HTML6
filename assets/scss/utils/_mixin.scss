@@ -1,0 +1,21 @@
+@mixin background-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+$paid : 992px;
+$phone : 767px;
+
+@mixin paid {
+    @media (max-winth: #{$paid}) {
+        @content;
+    }
+}
+
+
+@mixin phone {
+    @media (max-winth: #{$phone}) {
+      @content;
+    }
+}

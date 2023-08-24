@@ -1,0 +1,21 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+  }
+
+ul {
+    list-style: none;
+}
+
+
+a:hover {
+    color: #FBFF22 !important;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #FBFF22;
+  }
+
+img { 
+    vertical-align: top/bottom/text-top/text-bottom;
+  }
